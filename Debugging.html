@@ -1,8 +1,14 @@
-
 <!-- saved from url=(0059)http://narvi.ro/coderdojo/index.php/Debugging?action=render -->
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"></head><body style=""><div class="mw-parser-output"><p>În spigot.yml change these values to higher values:
+<html>
+<head>
+    <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+</head>
+<body style="">
+<h1>Debugging</h1>
+<hr/>
+<div class="mw-parser-output"><p>În spigot.yml change these values to higher values:
 </p>
-<pre>world-settings:
+    <pre>world-settings:
   default:
     max-tick-time:
       tile: 60000000
@@ -10,32 +16,34 @@
 settings:
   timeout-time: 60000000
 </pre>
-<p>Debug parameters:
-</p>
-<pre>java -Xdebug -Xnoagent -Djava.compiler=NONE -Xrunjdwp:transport=dt_socket,server=y,suspend=n,address=4020 -jar spigot-1.11.2.jar
+    <p>Debug parameters:
+    </p>
+    <pre>java -Xdebug -Xnoagent -Djava.compiler=NONE -Xrunjdwp:transport=dt_socket,server=y,suspend=n,address=4020 -jar spigot-1.11.2.jar
 </pre>
 
-<!-- 
-NewPP limit report
-Cached time: 20191223065806
-Cache expiry: 86400
-Dynamic content: false
-CPU time usage: 0.009 seconds
-Real time usage: 0.010 seconds
-Preprocessor visited node count: 7/1000000
-Preprocessor generated node count: 44/1000000
-Post‐expand include size: 0/2097152 bytes
-Template argument size: 0/2097152 bytes
-Highest expansion depth: 2/40
-Expensive parser function count: 0/100
-Unstrip recursion depth: 0/20
-Unstrip post‐expand size: 278/5000000 bytes
--->
-<!--
-Transclusion expansion time report (%,ms,calls,template)
-100.00%    0.000      1 -total
--->
+    <!--
+    NewPP limit report
+    Cached time: 20191223065806
+    Cache expiry: 86400
+    Dynamic content: false
+    CPU time usage: 0.009 seconds
+    Real time usage: 0.010 seconds
+    Preprocessor visited node count: 7/1000000
+    Preprocessor generated node count: 44/1000000
+    Post‐expand include size: 0/2097152 bytes
+    Template argument size: 0/2097152 bytes
+    Highest expansion depth: 2/40
+    Expensive parser function count: 0/100
+    Unstrip recursion depth: 0/20
+    Unstrip post‐expand size: 278/5000000 bytes
+    -->
+    <!--
+    Transclusion expansion time report (%,ms,calls,template)
+    100.00%    0.000      1 -total
+    -->
 
-<!-- Saved in parser cache with key callist1_wiki-mwut_:pcache:idhash:99-1!canonical and timestamp 20191223065806 and revision id 1558
- -->
-</div></body></html>
+    <!-- Saved in parser cache with key callist1_wiki-mwut_:pcache:idhash:99-1!canonical and timestamp 20191223065806 and revision id 1558
+     -->
+</div>
+</body>
+</html>
